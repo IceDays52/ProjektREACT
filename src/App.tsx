@@ -222,7 +222,7 @@ const Header = () => {
                     <h1>Film o naszej firmie</h1>
                     <div className="video-minimal">
                         <iframe
-                            src="https://www.youtube.com/embed/rKPttfLH1Nc?si=CFCk5fZAJ2PMBhnJ&modestbranding=1"
+                            src="https://www.youtube.com/embed/RjMinRa5LUc?si=lEtU42oTNYUwnF-6"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
@@ -245,7 +245,7 @@ const Header = () => {
                                         position={loc.position}
                                         title={loc.name}
                                     >
-                                        {/* Opcjonalnie: Stylizacja samej kropki/pinu */}
+                                        {}
                                         <Pin background={'black'} borderColor={'pink'} glyphColor={'white'} />
                                     </AdvancedMarker>
                                 ))}
@@ -263,31 +263,20 @@ const Header = () => {
                 <div className="hero register-card-v2">
                     <div className="hero-text">
                         <h1>Pozwól nam<span>ułatwić</span><br />prowadzenie firmy</h1>
-                        <p className="sub-text">Załóż testowe konto i inFaktuj. Wypróbuj nasze rozwiązania.</p>
+                        
 
                         <div className="register-form-container">
                             <form className="my-form">
+                                <p>Podaj email wyslemi ci  probny plan</p>
                                 <input type="email" placeholder="Adres e-mail" className="dark-input" />
-                                <input type="password" placeholder="Zdefiniuj swoje hasło" className="dark-input" />
-
-                                <div className="checkbox-stack">
-                                    <label className="custom-checkbox">
-                                        <input type="checkbox" />
-                                        <span>Zapoznałem/am się z <span className="purple-text">regulaminem</span></span>
-                                    </label>
-                                </div>
-
                                 <button type="submit" className="start-btn">Przetestuj za darmo →</button>
                             </form>
 
 
 
-                            <button className="google-btn-dark">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_Logo.svg" alt="" />
-                                Rejestracja z kontem Google
-                            </button>
+                        
                         </div>
-                        <p className="footer-note">Administratorem danych jest inFakt Sp. z o.o. <span className="purple-text">Więcej</span></p>
+                      
                     </div>
                 </div>
 
