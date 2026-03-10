@@ -92,7 +92,7 @@ body {
     font-size: 54px;
     font-weight: 900;
     line-height: 1.1;
-    white-space: nowrap;
+    
     margin-bottom: 1.5rem;
 }
 
@@ -415,13 +415,13 @@ body {
 
 .video-minimal {
     width: 560px;
-    height: 100%; /* Twoja preferowana szerokoœæ */
-    max-width: 100%; /* Bezpieczeñstwo dla smartfonów */
+    height: 100%;
+    max-width: 100%;
     aspect-ratio: 16 / 9;
-    border-radius: 40px; /* Zaokr¹glone rogi */
-    overflow: hidden; /* Kluczowe przy zaokr¹glaniu iframe */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* Delikatny cieñ */
-    border: 1px solid rgba(255,255,255,0.1); /* Subtelna ramka (opcjonalnie) */
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
     margin-top: 15px;
 }
 
@@ -529,3 +529,49 @@ body {
         background: #1a1a2e;
     }
 
+@media (max-width: 720px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 720px;
+        padding: 1.5rem; /* Zmniejszamy Twoje 4rem do 1rem */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero {
+        
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .hero p{
+       
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+    .hero h1 {
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .hero {
+        width: 300px;
+        background: pink !important;
+    }
+}
