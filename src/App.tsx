@@ -197,14 +197,14 @@ const Header = () => {
                 <div className="Scroller">
                     <motion.ul
                         className="scroller_inner"
-                        /* Animujemy do -33.33%, czyli długości jednego zestawu TAGS */
+                      
                         animate={{ x: ["0%", "-33.33%"] }}
                         transition={{
                             x: {
                                 repeat: Infinity,
                                 repeatType: "loop",
-                                duration: 25,    // Prędkość (większa liczba = wolniej)
-                                ease: "linear",  // Stałe tempo bez zatrzymywania
+                                duration: 25,  
+                                ease: "linear",  
                             },
                         }}
                     >
@@ -258,11 +258,11 @@ const Header = () => {
 
 
 
-            <section className="hero-main-container" ref={contactRef}  >
+            <section className="hero-main-container" ref={contactRef}>
                 {}
                 <div className="hero register-card-v2">
                     <div className="hero-text">
-                        <h1>Pozwól nam<span>ułatwić</span><br />prowadzenie firmy</h1>
+                        <h1>Pozwól nam <span>ułatwić</span><br />PROWADZENIE FIRMY</h1>
                         
 
                         <div className="register-form-container">
@@ -281,7 +281,7 @@ const Header = () => {
                 </div>
 
                 { }
-                <div className="PAPA contact-card">
+                <div className="PAPA contact-card" >
                     <h3>Napisz do nas ✉️</h3>
                     <p>Masz pytania? Chętnie pomożemy!</p>
                     <form className="my-form">
