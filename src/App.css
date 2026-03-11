@@ -652,7 +652,6 @@ body {
         display: flex;
         width: 90%;
         max-width: 380px;
-     
         border-radius: 40px;
         box-sizing: border-box;
         overflow: hidden;
@@ -667,6 +666,35 @@ body {
         width: 100%; 
         height: auto;
         display: block;
+    }
+    .features {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        max-width: 420px;
+        padding: 1rem;
+    }
+    .pricing-single-wrapper{
+        width:100%;
+    }
+    .features h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        word-wrap: break-word;
+    }
+    .features p {
+        color: white;
+        font-weight: bold;
+    }
+    .symbol {
+        font-size: 2rem;
+        margin-left: 0;
+        align-items: center;
+    }
+    .carousel {
+        margin-left: 0;
+        width: 90%;
+        max-width: 380px;
     }
 
 }
