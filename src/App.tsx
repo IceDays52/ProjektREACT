@@ -106,7 +106,7 @@ const Header = () => {
             <section className="hero">
                 <div className="hero-text">
                     <h1>
-                        MC KSIEGOWOSC<span>DOLACZ DO NAS</span>
+                     MC KSIEGOWOSC<span>DOLACZ DO NAS</span>
                     </h1>
 
                     <div className="Tata">
@@ -122,7 +122,7 @@ const Header = () => {
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="my-button"
-                                onClick={scrollToContact} // <--- DODAJ TO
+                                onClick={scrollToContact}
                             >
                                 <p>KONTAKT</p>
                             </motion.button>
