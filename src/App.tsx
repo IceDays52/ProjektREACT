@@ -133,7 +133,7 @@ const Header = () => {
                             className="my-button"
                             onClick={scrollToContact2}
                         >
-                            <p>SKIP</p>
+                            <p>O NAS</p>
                         </motion.button></div>
                     </div>
                 </div>
@@ -146,9 +146,9 @@ const Header = () => {
             </section>
 
             <section className="features">
-                <div><h1>O nas</h1>
+                <div><h1>O nas</h1><div className="onas">
                     <p>Prowadzenie własnej firmy wiąże się z wieloma obowiązkami księgowymi, podatkowymi i kadrowymi, które wymagają czasu, precyzji i aktualnej wiedzy. Właśnie dlatego warto powierzyć je profesjonalistom, którzy zadbają o pełną zgodność z przepisami i pozwolą skupić się na rozwoju biznesu. Biuro rachunkowe MC Księgowość Kraków oferuje kompleksową obsługę księgową dla firm każdej wielkości – od jednoosobowych działalności gospodarczych po większe przedsiębiorstwa. Zapewniamy prowadzenie ksiąg rachunkowych, księgi przychodów i rozchodów, rozliczenia podatkowe oraz obsługę kadrowo-płacową. Nasze podejście opiera się na indywidualnym dopasowaniu usług do potrzeb klienta, rzetelności, terminowości i bieżącym doradztwie księgowym. Dzięki współpracy z nami zyskują Państwo nie tylko bezpieczeństwo rozliczeń, ale także wsparcie w podejmowaniu decyzji finansowych i oszczędność cennego czasu. Zapraszamy do kontaktu i współpracy – z MC Księgowość Kraków prowadzenie firmy staje się prostsze, bezpieczniejsze i bardziej efektywne.</p>
-
+                </div>
                 </div>
 
                 <div className="opinie-section">
